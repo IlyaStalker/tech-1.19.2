@@ -1,0 +1,14 @@
+{
+        //Creative tab
+        "itemGroup.raw-ore": "Raw Ore",
+        "itemGroup.tools-and-armor": "Tools And Armor",
+        //Raw Ore
+        "item.tech.raw-ore-tin": "Raw Tin",
+        "item.tech.raw-ore-lead": "Raw Lead",
+        // ToolAndArmor Copper
+        "item.tech.copper-axe": "Copper Axe",
+        "item.tech.copper-pickaxe": "Copper Pickaxe",
+        "item.tech.copper-hoe": "Copper Hoe",
+        "item.tech.copper-shovel": "Copper Shovel",
+        "item.tech.copper-sword": "Copper Sword"
+}
