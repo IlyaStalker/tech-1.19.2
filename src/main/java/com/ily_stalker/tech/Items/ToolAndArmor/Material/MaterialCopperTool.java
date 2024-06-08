@@ -8,7 +8,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 
 import java.util.function.Supplier;
 
-public enum MaterialCopper implements Tier {
+public enum MaterialCopperTool implements Tier {
     INGOTCOPPER(2, 250, 10.0F, 1.0F, 100, () -> {
         return Ingredient.of(Items.COPPER_INGOT);
     }),
@@ -23,7 +23,7 @@ public enum MaterialCopper implements Tier {
     private final int enchantmentValue;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    MaterialCopper(int level, int durability, float miningSpeed, float damage, int enchantability, Supplier<Ingredient> repairIngredient) {
+    MaterialCopperTool(int level, int durability, float miningSpeed, float damage, int enchantability, Supplier<Ingredient> repairIngredient) {
         this.level = level;
         this.uses = durability;
         this.speed = miningSpeed;

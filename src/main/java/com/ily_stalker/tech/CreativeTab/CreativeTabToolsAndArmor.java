@@ -3,7 +3,7 @@ package com.ily_stalker.tech.CreativeTab;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
 
-import static com.ily_stalker.tech.Items.ToolAndArmor.ToolAndArmor.COPPER_SWORD;
+import static com.ily_stalker.tech.Items.ToolAndArmor.ToolAndArmor.*;
 
 public class CreativeTabToolsAndArmor extends CreativeModeTab {
         private CreativeTabToolsAndArmor(int index, String label) {
@@ -12,7 +12,7 @@ public class CreativeTabToolsAndArmor extends CreativeModeTab {
 
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(COPPER_SWORD.get());
+            return new ItemStack(COPPER_SWORD.get().COPPER_AXE.get());
         }
 
         public static final CreativeTabToolsAndArmor instance = new CreativeTabToolsAndArmor(CreativeModeTab.TABS.length, "tools-and-armor");
